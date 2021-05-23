@@ -7,16 +7,38 @@ function App() {
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+
+        {/* VOY A TRATAR DE PONER UN MENU DE BOOTSTRAP; ANTES COMMITEO POR LAS DUDAS*/}
+
+
+        <h1
+        className ="titulo"
+        >
+          Epezando con reactjs
+        </h1>
+
+        <p
+          className ="parrafo"
+        >
+          Hola mundo!!!
         </p>
+
+        <p
+          className ="parrafo"
+        >
+          Para empezar estoy tocando cosas para ver como es el sistema de archivos de react, borre el css que traia por defecto y Eliminé los estilos que traia por defecto.
+          Voy a tratar de poner algunos estilos random a ver que onda
+          Bootstrap?
+
+        </p>
+
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className="linkRepo"
+          href="https://github.com/germanTuppo/loca-rola.git"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Mi repositorio de react
         </a>
       </header>
     </div>
