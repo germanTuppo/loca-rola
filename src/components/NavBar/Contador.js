@@ -7,7 +7,7 @@ const Contador = () => {
   return (
   
       
-      <button onClick={() => setContador(contador + 1)}>Mi Carrito{contador}</button>
+      <button onClick={() => setContador(contador + 1)}>Mi Carrito {contador}</button>
       
   );
 };

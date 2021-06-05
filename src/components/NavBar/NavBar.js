@@ -30,7 +30,7 @@ const Navbar = () => {
                         </ul>
                     </li>
                     <li className="nav-item">
-                        {/* <Contador /> */}
+                         <Contador /> 
                     </li>
                 </ul>
                 <form className="d-flex">
