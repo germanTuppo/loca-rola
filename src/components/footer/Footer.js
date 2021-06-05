@@ -7,12 +7,12 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-6">
-            <h6>About</h6>
-            <p className="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+            <h6>Nosotros</h6>
+            <p className="text-justify">La Loca Rola <i> </i> Somos una regueria y grow-shop nacido hace 5 años en la gloriosa ciudad de avellaneda, provincia de Buenos aires....</p>
           </div>
 
           <div className="col-xs-6 col-md-3">
-            <h6>Categories</h6>
+            <h6>Categorias</h6>
             <ul className="footer-links">
               <li><a href="#">Remeras</a></li>
               <li><a href="#">Buzos</a></li>
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
 
           <div className="col-xs-6 col-md-3">
-            <h6>Quick Links</h6>
+            <h6>Links</h6>
             <ul className="footer-links">
               <li><a href="#">Nosotros</a></li>
               <li><a href="#">Contactanos</a></li>
@@ -38,8 +38,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-8 col-sm-6 col-xs-12">
-            <p className="copyright-text">Copyright &copy; 2021 todos los derechos reservados
-         <a href="#">Loca-rola</a>.
+            <p className="copyright-text">Copyright &copy; 2021 todos los derechos reservados <a href="#">@matesconger</a>.
             </p>
           </div>
 

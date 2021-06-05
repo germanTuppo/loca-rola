@@ -1,4 +1,5 @@
 import React from 'react';
+import Contador from './Contador';
 
 const Navbar = () => {
   return (
@@ -28,7 +29,9 @@ const Navbar = () => {
                             <li><a className="dropdown-item" href="#">Camperas</a></li>
                         </ul>
                     </li>
-                    
+                    <li className="nav-item">
+                        {/* <Contador /> */}
+                    </li>
                 </ul>
                 <form className="d-flex">
                 <input className="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"></input>
