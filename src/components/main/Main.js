@@ -1,5 +1,8 @@
 import React from 'react';
+import Card from './Card';
 import './Main.css';
+
+
 const Main = () => {
   return (
     <main className="main">
@@ -35,6 +38,12 @@ const Main = () => {
         >
           Mi repositorio de react
         </a>
+
+
+        <section>
+         {/* <Card /> */}
+        </section>    
+        <Card />        
       </main>
   );
 };
