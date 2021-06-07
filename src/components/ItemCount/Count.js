@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 
 
-const Contador = () => {
+const Count = () => {
   const [contador, setContador] = useState(0);
   return (
   
@@ -11,4 +11,4 @@ const Contador = () => {
       
   );
 };
-export default Contador;
+export default Count;

@@ -1,5 +1,5 @@
 import React from 'react';
-import ItemList from './ItemList';
+import ItemList from '../ItemListContainer/ItemList';
 import './Main.css';
 
 
@@ -38,7 +38,7 @@ const Main = () => {
         >
           Mi repositorio de react
         </a>
-
+        
 
         <section>
           <ItemList /> 
