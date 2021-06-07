@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card';
+import ItemList from './ItemList';
 import './Main.css';
 
 
@@ -41,9 +41,9 @@ const Main = () => {
 
 
         <section>
-         {/* <Card /> */}
+          <ItemList /> 
         </section>    
-        <Card />        
+               
       </main>
   );
 };

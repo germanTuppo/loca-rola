@@ -1,7 +1,7 @@
 import React from 'react';
-import './Card.css';
+import './ItemList.css';
 
-const Card = () => {
+const ItemList = () => {
   return (
     <div className="card carta">
         <img src="../public/producto_1.jpg" class="card-img-top" alt=""></img>
@@ -14,4 +14,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default ItemList;
