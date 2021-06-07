@@ -1,5 +1,5 @@
 import React from 'react';
-import Count from '../ItemCount/Count';
+import Count from '../ItemCount/ItemCount';
 
 const Navbar = () => {
   return (
