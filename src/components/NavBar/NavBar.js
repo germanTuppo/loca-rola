@@ -1,5 +1,5 @@
 import React from 'react';
-import Count from '../ItemCount/ItemCount';
+
 
 const Navbar = () => {
   return (
@@ -30,7 +30,7 @@ const Navbar = () => {
                         </ul>
                     </li>
                     <li className="nav-item">
-                         <Count /> 
+                         
                     </li>
                 </ul>
                 <form className="d-flex">

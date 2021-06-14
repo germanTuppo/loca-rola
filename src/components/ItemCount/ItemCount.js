@@ -1,14 +1,29 @@
 import React, { useState } from 'react';
+import './ItemCount.css';
 
 
+function ItemCount ({stock, initial, onAdd}) {
+  const [contador, setContador] = useState(parseInt(initial));
 
-const ItemCount = () => {
-  const [contador, setContador] = useState(0);
+  function onIncrement (){
+    if (contador<parseInt(stock)) {
+      setContador(contador + 1);
+    }  
+  }
+
+  function onDecrement (){
+    if (contador>0) {
+      setContador(contador - 1);
+    } 
+    
+  }
   return (
   
-      
-      <button className="contador" onClick={() => setContador(contador + 1)}>Mi Carrito {contador}</button>
-      
+    <div className="contador">
+      <button className="button" onClick={onDecrement}>-</button>
+      <span className="contadorView">{contador}</span>
+      <button className="button" onClick={onIncrement}>+</button>
+    </div>  
   );
 };
 export default ItemCount;

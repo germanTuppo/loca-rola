@@ -1,0 +1,14 @@
+.contador{
+    display: flex;
+}
+.contadorView{
+    width: 125px;
+    height: 30px;
+    text-align: center;
+
+}
+.button{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
