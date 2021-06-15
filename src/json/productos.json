@@ -1,74 +1,74 @@
 [
     {
-        "codigo" : "1",
+        "id" : "1",
         "categoria" : "Fertilizantes",
         "titulo" : "Producto 1",
         "descripcion" : "Descripción del producto 1",
         "precio": 1233,
         "stock" : 5,
-        "rutaImg" : "../../../public/producto_1.jpg"
+        "rutaImg" : "../../assets/img/producto_1"
     },
     {
-        "codigo" : "2",
+        "id" : "2",
         "categoria" : "Remeras",
         "titulo" : "Producto 2",
         "descripcion" : "Descripción del producto 2",
         "precio": 4322,
         "stock" : 23,
-        "rutaImg" : "../../../public/producto_2.jpg"
+        "rutaImg" : "../../assets/img/producto_2"
     },
     {
-        "codigo" : "3",
+        "id" : "3",
         "categoria" : "Calzado",
         "titulo" : "Producto 3",
         "descripcion" : "Descripción del producto 3",
         "precio": 4123,
         "stock" : 234,
-        "rutaImg" : "../../../public/producto_3.jpg"
+        "rutaImg" : "../../assets/img/producto_3"
     },
     {
-        "codigo" : "4",
+        "id" : "4",
         "categoria" : "Fertilizantes",
         "titulo" : "Producto 4",
         "descripcion" : "Descripción del producto 4",
         "precio": 1234,
         "stock" : 11,
-        "rutaImg" : "../../../public/producto_4.jpg"
+        "rutaImg" : "../../assets/img/producto_4"
     },
     {
-        "codigo" : "5",
+        "id" : "5",
         "categoria" : "Cultivo",
         "titulo" : "Producto 5",
         "descripcion" : "Descripción del producto 5",
         "precio": 4321,
         "stock" : 432,
-        "rutaImg" : "../../../public/producto_5.jpg"
+        "rutaImg" : "../../assets/img/producto_5"
     },
     {
-        "codigo" : "6",
+        "id" : "6",
         "categoria" : "Fertilizantes",
         "titulo" : "Producto 6",
         "descripcion" : "Descripción del producto 6",
         "precio": 2341,
         "stock" : 1,
-        "rutaImg" : "../../../public/producto_6.jpg"
+        "rutaImg" : "../../assets/img/producto_6"
     },
     {
-        "codigo" : "7",
+        "id" : "7",
         "categoria" : "Cultivo",
         "titulo" : "Producto 7",
         "descripcion" : "Descripción del producto 7",
         "precio": 4324,
         "stock" : 12,
-        "rutaImg" : "../../../public/producto_7.jpg"
+        "rutaImg" : "../../assets/img/producto_7"
     },
     {
-        "codigo" : "8",
+        "id" : "8",
         "categoria" : "Remeras",
         "titulo" : "Producto 8",
         "descripcion" : "Descripción del producto 8",
         "precio": 1209,
         "stock" : 4,
-        "rutaImg" : "../../../public/producto_8.jpg"
+        "rutaImg" : "../../assets/img/producto_8"
     }
 ]
