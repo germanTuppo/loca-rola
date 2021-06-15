@@ -1,13 +1,15 @@
 import React from 'react';
-import './ItemList.css';
+import './Item.css';
 import Count from '../ItemCount/ItemCount';
-
+import img from '../../assets/img/producto_1.jpg'
 
 // Item list container es un elemento de la lista de productos
-const ItemList = () => {
+const Item = ({items}) => {
   return (
-    <div className="card carta">
-        <img src="../public/producto_1.jpg" class="card-img-top" alt=""></img>
+    <div className="col-12 col-md-3 card carta">
+
+        {console.log(items.codigo)}
+        <img src= {img} class="card-img-top w-50" alt=""></img>
         <div className="card-body">
             <h5 className="card-title">Titulo del producto</h5>
             <p className="card-text">Aca va una descripción del producto, claramente la idea es consumir una api o usar un JSON</p>
@@ -18,4 +20,4 @@ const ItemList = () => {
   );
 };
 
-export default ItemList;
+export default Item; 

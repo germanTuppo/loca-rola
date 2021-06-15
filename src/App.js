@@ -1,7 +1,7 @@
 
 import './App.css';
 import Footer from './components/Footer/Footer';
-import Main from './components/Main/Main';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import Navbar from './components/NavBar/NavBar.js';
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
       </header>
 
 
-      {/* Aca iria  un componente main*/}
-        <Main />
+      {/* Aca iria  un componente main, que lo llamamos ItemListContainer*/}
+        <ItemListContainer />
 
 
       {/* Aca va a ir un componente Footer */}

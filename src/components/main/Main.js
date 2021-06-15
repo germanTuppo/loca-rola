@@ -1,5 +1,5 @@
 import React from 'react';
-import ItemList from '../ItemListContainer/ItemList';
+import ItemListContainer from '../ItemListContainer/ItemListContainer';
 import './Main.css';
 
 
@@ -41,7 +41,7 @@ const Main = () => {
         
 
         <section>
-          <ItemList /> 
+          <ItemListContainer /> 
         </section>    
                
       </main>
