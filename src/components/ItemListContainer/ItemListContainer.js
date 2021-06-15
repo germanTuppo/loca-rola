@@ -69,7 +69,7 @@ const ItemListContainer = () => {
 
    
 
-
+    console.log(results)
 
   return (
     <main className="main">

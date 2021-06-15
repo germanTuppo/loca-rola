@@ -9,7 +9,11 @@ const ItemList = ({results}) => {
     // id, title, description, price, pictureUrl
     <div>
       {
-        results.map((items) => <Item items={items} />  )
+        results.map((items) => {
+          return (
+            <Item key={items.id} items={items} /> 
+          )
+        })
       }
      
         
