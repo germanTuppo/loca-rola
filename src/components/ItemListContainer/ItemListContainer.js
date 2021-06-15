@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './ItemListContainer.css';
-//import ItemList from '../ItemList/ItemList';
+import ItemList from '../ItemList/ItemList';
 //import productos from '../../json/productos.json'
 // Item list container es el contenedor de la lista de productos (desafío 3)
 const ItemListContainer = () => {
@@ -86,12 +86,12 @@ const ItemListContainer = () => {
         </p>
          
          <p>
-          {results.map(element => {
-            return <div>{element.stock}</div>;
-          })}
+          {/* {results.map(element => {
+            return element;
+          })} */}
         </p> 
         <section>
-          {/* <ItemList itemsProp={items}/>  */}
+           <ItemList itemsProp={results}/>  
         </section>    
                
       </main>

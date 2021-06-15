@@ -4,12 +4,12 @@ import Item from '../Item/Item';
 
 
 // ItemList.js Es un agrupador de un set de componentes Item.js (Deberías incluirlo dentro de ItemListContainer del desafío 3)
-const ItemList = ({itemsProp}) => {
+const ItemList = ({results}) => {
   return (
     // id, title, description, price, pictureUrl
     <div>
       {
-        itemsProp.map((items) => <Item items={items} />  )
+        results.map((items) => <Item items={items} />  )
       }
      
         
