@@ -27,7 +27,7 @@ const ItemListContainer = () => {
     ];
 
     const task = new Promise((resolve, reject) => {
-      // pasados 3 segundo....
+      // pasados 2 segundos....
       console.log('Esperando 2 segundos para simular retraso del server');
       setTimeout(() => {
         resolve(productList);
@@ -43,18 +43,6 @@ const ItemListContainer = () => {
       });
     });
 
-   // Hasta aca estamos bien, esto funciona, por que no me funmciona el fetch, no lo sé. No se por que no lo puedo levantar desde el JSON
-
-    //const [items, setItems] = useState([]);
-
-    /*useEffect(() => {
-     fetch(productos)
-      .then (response => response.json())
-      .then (response => setItems(response))
-    
-   }, []);
-
-  */
     const [results, setResults] = useState([]);
 
     useEffect(async () => {
@@ -68,9 +56,6 @@ const ItemListContainer = () => {
     }, []);
 
    
-
-    console.log(results)
-
   return (
     <main className="main">
         <h1
@@ -86,9 +71,7 @@ const ItemListContainer = () => {
         </p>
          
          <p>
-          {/* {results.map(element => {
-            return element;
-          })} */}
+         
         </p> 
         <section>
            <ItemList itemsProp={results}/>  

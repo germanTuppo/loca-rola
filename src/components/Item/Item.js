@@ -8,7 +8,7 @@ const Item = ({items}) => {
   return (
     <div className="col-12 col-md-3 card carta">
 
-        {console.log(items.codigo)}
+        
         <img src= "" class="card-img-top w-50" alt=""></img>
         <div className="card-body">
             <h5 className="card-title">Titulo del producto</h5>

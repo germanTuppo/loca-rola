@@ -8,15 +8,7 @@ const ItemList = ({results}) => {
   return (
     // id, title, description, price, pictureUrl
     <div>
-      {
-        console.log(results)
-        // results.map((items) => {
-        //   return (
-        //   <Item key=npm{items.id} items={items} /> 
-        //   )
-        // })
-      }
-        
+      <Item />
     </div>
   );
 };
