@@ -9,13 +9,13 @@ const ItemList = ({results}) => {
     // id, title, description, price, pictureUrl
     <div>
       {
-        results.map((items) => {
-          return (
-            <Item key={items.id} items={items} /> 
-          )
-        })
+        console.log(results)
+        // results.map((items) => {
+        //   return (
+        //   <Item key=npm{items.id} items={items} /> 
+        //   )
+        // })
       }
-     
         
     </div>
   );
