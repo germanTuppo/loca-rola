@@ -7,7 +7,6 @@ import Count from '../ItemCount/ItemCount';
 const Item = ({items}) => {
   return (
     <div className="col-12 col-md-3 card carta">
-
         
         <img src= "" class="card-img-top w-50" alt=""></img>
         <div className="card-body">
